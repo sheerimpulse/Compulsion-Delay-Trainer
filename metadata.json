@@ -1,0 +1,6 @@
+{
+  "name": "Compulsion Delay Trainer",
+  "description": "An ultra-lightweight training app to help delay compulsive urges, build resilience, and track streaks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
