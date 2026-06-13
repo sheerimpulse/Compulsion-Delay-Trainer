@@ -252,7 +252,7 @@ export default function App() {
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-xs tracking-wide text-zinc-100">
-                ERP Pause Trainer
+                Hold The Urge
               </span>
               <span className="text-[9px] font-mono font-medium text-teal-400/80">
                 v1.0 COMPULSION DELAY
