@@ -399,6 +399,8 @@ export default function App() {
           id="global-footer"
         >
           <span>Developed strictly for behavioral delay training. Not a replacement for professional clinical care.</span>
+          <br />
+          <a className="text-teal-400 fw-bold" href="https://sheerweb.dev" target="_blank">SheerWebDev</a>
         </footer>
       </div>
     </div>
