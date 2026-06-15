@@ -1,13 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hold The Urge</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
 
+<head>
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://holdtheurge.web.app" />
+
+  <!-- Author / creator association -->
+  <meta name="author" content="SheerWebDev" />
+  <link rel="author" href="https://sheerweb.dev" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="SheerWebDev" />
+
+  <!-- JSON-LD structured data — this is what Google actually reads -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Hold The Urge",
+    "description": "A behavioral delay training app to help you pause and outlast compulsive urges.",
+    "url": "https://holdtheurge.web.app",
+    "applicationCategory": "HealthApplication",
+    "author": {
+      "@type": "Person",
+      "name": "SheerWebDev",
+      "url": "https://sheerweb.dev"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "SheerWebDev",
+      "url": "https://sheerweb.dev"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
